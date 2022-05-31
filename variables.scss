@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+$heading-font-family: 'Marcellus', serif;
+$body-font-family: 'Open Sans', sans-serif;
+$base-font-size: 18px;
+$base-font-weight: 400;
+
+$clr-primary: #F6EEE2;
+$clr-secondary: #23ded2;
+$clr-accent: #e5389b;
+$clr-neutral-light: #efefef;
+$clr-neutral-dark: #323232;
+
+@mixin color-scheme ($text, $bg) {
+    background-color: $bg ;
+
+}
+
+@mixin name {
+    
+}
